@@ -1,9 +1,9 @@
 on: [push]
 env:
-  CLUSTER_NAME: ${{ secrets.AZURE_RG }}
+  CLUSTER_NAME: ${{ secrets.CLUSTER_NAME }}
   CLUSTER_RESOURCE_GROUP: ${{ secrets.AZURE_RG }}
-  NAMESPACE: ${{ secrets.AZURE_RG }}
-  APP_NAME: ${{ secrets.AZURE_RG }}
+  NAMESPACE: ${{ secrets.CLUSTER_NAME }}
+  APP_NAME: ${{ secrets.CLUSTER_NAME }}
 
   name: Azure ARM
 jobs:
