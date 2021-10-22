@@ -5,6 +5,12 @@
     "linuxAdminUsername": {
       "value": "aksadmin"
     },
+    "uniqueclustername": {
+      "value": "aks-dev-bicep-01"
+    },
+    "dnsPrefix": {
+      "value": "aks-dev-bicep-01"
+    },
     "sshRSAPublicKey": {
       "reference": {
         "keyVault": {
